@@ -1,56 +1,32 @@
-\# UAV Flight Simulation with PID Control
+# UAV PID Flight Simulator
 
+This project simulates a UAV flying toward a target using a PID controller.
 
+## Features
 
-A minimal 2D UAV flight simulation using a PID controller for target tracking.
+- 2D drone physics simulation
+- PID controller implementation
+- Target tracking
+- Real-time visualization
 
+## Files
 
+- main.py → starts simulation
+- drone.py → drone physics
+- pid.py → PID controller
+- simulation.py → simulation logic
+- config.py → parameters
 
-\## Features
+## Run
 
-
-
-\- 2D drone dynamics
-
-\- Position and velocity model
-
-\- PID-based acceleration control
-
-\- Target tracking
-
-\- Matplotlib animation visualization
-
-
-
-\## Tech Stack
-
-
-
-\- Python
-
-\- NumPy
-
-\- Matplotlib
-
-
-
-\## Run
-
-
-
-```bash
+Install requirements:
 
 pip install -r requirements.txt
 
+Start simulation:
+
 python main.py
 
-```
+## Purpose
 
-
-
-\## Purpose
-
-
-
-This project demonstrates basic UAV control system understanding using a PID controller and dynamic simulation.
-
+Educational UAV flight control simulation demonstrating PID control.
